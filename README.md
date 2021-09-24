@@ -1,4 +1,4 @@
-# fb_dfg: automated downloading from Facebook Data for Good
+# fb_dfg: automate downloads from Facebook Data for Good
 
 [![GitHub Actions (tests)](https://github.com/hamishgibbs/fb_dfg/actions/workflows/tests.yml/badge.svg)](https://github.com/hamishgibbs/fb_dfg)
 
