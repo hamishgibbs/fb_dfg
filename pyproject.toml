@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "fb_dfg"
+version = "0.1.0"
+description = "Automated dataset downloading"
+authors = ["hamishgibbs <hamishgibbs@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+browser-cookie3 = "^0.12.1"
+appdirs = "^1.4.4"
+requests = "^2.26.0"
+click = "^8.0.1"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fb_dfg = "fb_dfg.cli:cli"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py37
+
+[gh-actions]
+python =
+    3.7: py37
+
+[testenv]
+whitelist_externals = poetry
+
+deps = pytest
+
+commands = pytest
+"""

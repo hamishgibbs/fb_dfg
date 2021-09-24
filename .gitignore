@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__
+poetry.lock
+fb_dfg/data
+tests/tmp_data
+.tox
+.pytest_cache
