@@ -1,6 +1,6 @@
 # fb_dfg: automated downloading from Facebook Data for Good
 
-[![GitHub Actions (tests)](https://github.com/hamishgibbs/fb_dfg/workflows/tests/badge.svg)](https://github.com/hamishgibbs/fb_dfg)
+[![GitHub Actions (tests)](https://github.com/hamishgibbs/fb_dfg/actions/workflows/tests.yml/badge.svg)](https://github.com/hamishgibbs/fb_dfg)
 
 `fb_dfg` automates downloading from the Facebook Data For Good Partner Program Platform. Because Facebook does not provide an API to download data from the Partner Platform, use `fb_dfg` to simulate the behaviour of an API for downloading datasets and automatically updating data collections. For a previous version of this library (now deprecated) see [pull_facebook_data_for_good](https://github.com/hamishgibbs/pull_facebook_data_for_good).
 
