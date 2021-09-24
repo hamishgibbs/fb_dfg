@@ -6,13 +6,13 @@
 
 *Disclaimer: This library will only work for users with access to the Facebook Data for Good Partner Program, and will only function for datasets to which the user has been granted access. This tool is not developed by or associated with Facebook.*
 
-### Features:
+## Features:
 
 * Uses cached authentication credentials.
 * Allows access to data with custom aliases.
 * Exposes CLI commands to incrementally update data collections.
 
-### Installation
+## Installation
 
 **From a clone:**
 
@@ -42,11 +42,11 @@ To install the package directly from GitHub run:
 pip install git+https://github.com/hamishgibbs/fb_dfg.git
 ```
 
-### License
+## License
 
 [MIT License](https://github.com/hamishgibbs/fb_dfg/blob/main/LICENSE)
 
-### Quick Start
+## Quick Start
 
 The easiest way to use `fb_dfg` is from the command line. See documentation for command line functions with:
 
@@ -99,7 +99,7 @@ fb_dfg download
 
 `fb_dfg` will automatically construct a query with the appropriate parameters. Note that the parent folder of the data collection MUST be a recognized dataset alias.
 
-### Limitations
+## Limitations
 
 `fb_dfg` only supports cookies from Chrome. You must authenticate with the Portal with Chrome to use the library.
 
@@ -107,6 +107,6 @@ fb_dfg download
 
 Data queries of >30 days do not return data from the Portal. To address this, `fb_dfg` breaks queries >30 days into 30 day "chunks". In practice, the Portal begins to reject the 3rd - 4th successive data query. It is recommended that you limit the length of dataset queries by updating dataset collections regularly.
 
-### Contributions
+## Contributions
 
 Contributions are welcome! If you see a problem with the library, please [open an issue](https://github.com/hamishgibbs/fb_dfg/issues/new).
